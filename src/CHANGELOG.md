@@ -1,5 +1,13 @@
 # viem
 
+## 2.58.3
+
+### Patch Changes
+
+- [#5613](https://github.com/wevm/viem/pull/5613) [`9381167dfe73db732d979c6076301559a689e81f`](https://github.com/wevm/viem/commit/9381167dfe73db732d979c6076301559a689e81f) Thanks [@jxom](https://github.com/jxom)! - Passed the latest block to the chain `fees.estimateFeesPerGas` and `fees.baseFeeMultiplier` hooks when `estimateFeesPerGas` is called without a block.
+
+- [#5604](https://github.com/wevm/viem/pull/5604) [`d90ffc7db962baf69bd0d620fa140ca440c70b1a`](https://github.com/wevm/viem/commit/d90ffc7db962baf69bd0d620fa140ca440c70b1a) Thanks [@mortezashojaei](https://github.com/mortezashojaei)! - Threw `AccountStateConflictError` when a state override set the same account more than once with different address casing.
+
 ## 2.58.2
 
 ### Patch Changes
